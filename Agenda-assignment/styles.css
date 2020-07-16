@@ -1,0 +1,14 @@
+#details{
+    list-style-type: none;  
+}
+
+.info{
+    display: inline;
+    padding: 5px;
+}
+#main-title{
+    text-align: center;
+}
+#venue{
+    float:right;
+}
