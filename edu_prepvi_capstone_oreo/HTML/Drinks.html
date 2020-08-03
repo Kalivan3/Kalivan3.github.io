@@ -7,71 +7,114 @@
     <link rel="stylesheet" href="../CSS/Drinks.css">
 </head>
 <body>
-    <div class="Topnavbar">
-        <a href="../index.html">Home</a>
-        <a href="#Aboutus">About us</a>
-        <a href="#ourservices">Our services</a>
-        <a href="#login">Customer login</a>
-    </div>
+    <nav id="navbar">
+        <span class="open-slide">
+          <a href="#" onclick="openSlideMenu()">
+            <svg width="30" height="30">
+              <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+              <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+              <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+            </svg>
+          </a>
+        <div class="Topnavbar">
+            <a href="../index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="login">Login</a>
+        </div>
+    </nav>
+        <div id="side-menu" class="side-nav">
+            <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+          
+            <hr>
+            <a href="food.html">Food</a>
+            <a href="Drinks.html">Drinks</a>
+           
+          </div>
+          <div class="pop">
+      
+                <input class='input' placeholder="Search" type="text" id="search">
+                <ul id="list"></ul>
+          </div>
     <div class="welcome">
         <h1>Available drinks </h1>
     </div>
     
     <div class="drinks">
         <div>
-            <img src="../IMAGE/cinamon-drink.jpg" width="250px" height="60%" sizes="60%">
-            <h3 class="caption">pinapple-juice<br>ug.2500/</h3>
-            <p><button id="cinamon">Add to Cart</button></p>
+            <img src="../IMAGE/cinamon-drink.jpg" width="250px" height="60%" sizes="60%" class="shop-item-image">
+            <h3 class="shop-item-title">pinapple-juice</h3> <h3 class="shop-item-price">ug.2500/</h3>
+            <p><button id="cinamon" class="btn btn-primary shop-item-button">Add to Cart</button></p>
         </div>
         <div>
-            <img src="../IMAGE/cider-drinks.jpg"width="250px" height="60%" sizes="60%">
-            <h3 class="caption">Cider<br>ug.2000/</h3>
-            <p><button id="cider">Add to Cart</button></p>
+            <img src="../IMAGE/cider-drinks.jpg"width="250px" height="60%" sizes="60%" class="shop-item-image">
+            <h3 class="shop-item-title">Cider</h3> <h3 class="shop-item-price">ug.2000/</h3>
+            <p><button id="cider" class="btn btn-primary shop-item-button">Add to Cart</button></p>
             
         </div>
         <div>
-            <img src="../IMAGE/chai-tea-drink.jpg"width="250px" height="60%" sizes="60%">
-            <h3 class="caption">chai-tea-drink<br>ug.15000/</h3>
-            <p><button id="chai">Add to Cart</button></p>
+            <img src="../IMAGE/chai-tea-drink.jpg"width="250px" height="60%" sizes="60%" class="shop-item-image">
+            <h3 class="shop-item-title">chai-tea-drink</h3><h3 class="shop-item-price">ug.15000/</h3>
+            <p><button id="chai" class="btn btn-primary shop-item-button">Add to Cart</button></p>
         </div>
         <div>
-            <img src="../IMAGE/softdrink.jpg"width="250px" height="60%" sizes="60%">
-            <h3 class="caption">Soda<br>ug.2000/</h3>
-            <p><button id="soda">Add to Cart</button></p>
+            <img src="../IMAGE/softdrink.jpg"width="250px" height="60%" sizes="60%" class="shop-item-image">
+            <h3 class="shop-item-title">Soda</h3> <h3 class="shop-item-price">ug.2000/</h3>
+            <p><button id="soda" class="btn btn-primary shop-item-button">Add to Cart</button></p>
         </div>
         <di>
-        <img src="../IMAGE/water.jpg" width="250px" height="60%" sizes="60%">
-        <h3 class="caption">Water<br>ug.2000/</h3>
-        <p><button id="water">Add to Cart</button></p>
+        <img src="../IMAGE/water.jpg" width="250px" height="60%" sizes="60%" class="shop-item-image">
+        <h3 class="shop-item-title">Water</h3> <h3 class="shop-item-price">ug.2000/</h3>
+        <p><button id="water" class="btn btn-primary shop-item-button">Add to Cart</button></p>
         </di>
         <div>
-            <img src="../IMAGE/icecoldmilk.jpg" width="250px" height="60%" sizes="60%">
-            <h3 class="caption">ice-coldmilk<br>ug.2500/</h3>
-            <p><button id="ice-coldmilk">Add to Cart</button></p>
+            <img src="../IMAGE/icecoldmilk.jpg" width="250px" height="60%" sizes="60%" class="shop-item-image">
+            <h3 class="shop-item-title">ice-coldmilk</h3> <h3 class="shop-item-price">ug.2500/</h3>
+            <p><button id="ice-coldmilk" class="btn btn-primary shop-item-button">Add to Cart</button></p>
         </div>
         <div>
-            <img src="../IMAGE/coldmilk.jpg"width="250px" height="60%" sizes="60%">
-            <h3 class="caption">cold-milk<br>ug.1500/</h3>
-            <p><button id="coldmilk">Add to Cart</button></p>
+            <img src="../IMAGE/coldmilk.jpg"width="250px" height="60%" sizes="60%" class="shop-item-image">
+            <h3 class="shop-item-title">cold-milk</h3> <h3 class="shop-item-price">ug.1500/</h3>
+            <p><button id="coldmilk" class="btn btn-primary shop-item-button">Add to Cart</button></p>
         </div>
         <div>
-            <img src="../IMAGE/yogurt.jpg"width="250px" height="60%" sizes="60%">
-            <h3 class="caption">yogurt<br>ug.1500/</h3>
-            <p><button id="yogurt">Add to Cart</button></p>
+            <img src="../IMAGE/yogurt.jpg"width="250px" height="60%" sizes="60%" class="shop-item-image">
+            <h3 class="shop-item-title">yogurt</h3> <h3 class="shop-item-price">ug.1500/</h3>
+            <p><button id="yogurt" class="btn btn-primary shop-item-button">Add to Cart</button></p>
         </div>
         <div>
-            <img src="../IMAGE/Orange_Juice.jpg"width="250px" height="60%" sizes="60%">
-            <h3 class="caption">Orange-juice<br>ug.1500/</h3>
-            <p><button id="Orange_Juice">Add to Cart</button></p>
+            <img src="../IMAGE/Orange_Juice.jpg"width="250px" height="60%" sizes="60%" class="shop-item-image">
+            <h3 class="shop-item-title">Orange-juice</h3> <h3 class="shop-item-price">ug.1500/</h3>
+            <p><button id="Orange_Juice" class="btn btn-primary shop-item-button">Add to Cart</button></p>
         </div>
         <h5>more drinks please enter in the <br>customer search menu<br>OutBox Edu@2020<br>P.oBox Kamapala</h5>
-        
-        
 
     </div>
-    <p class="bthp"><a href="../index.html">Back To Home</a></p>
     <hr>
-    <footer>contact oreo resturant<br>OutBox Edu@2020<br>P.oBox Kamapala</footer>
+    
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">Ush.0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+
+      <p class="bthp">
+        <a href="../HTML/food.html">add food</a>
+        <a href="../index.html">Back To Home</a>
+        
+      </p>
+    <footer>contact Oreo resturant<br>OutBox Edu@2020<br>Kamapala</footer>
     <script src="../JS/Drink.js"></script>
+    <script src="../JS/cart.js"></script>
 </body>
 </html>
