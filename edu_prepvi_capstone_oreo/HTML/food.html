@@ -10,7 +10,7 @@
     
 <head>
   <nav id="navbar">
-    <span class="open-slide">
+    <span class="open-slide"></span>
       <a href="#" onclick="openSlideMenu()">
         <svg width="30" height="30">
           <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
@@ -23,6 +23,11 @@
           <a href="about.html">About</a>
           <a href="contact.html">Contact</a>
           <a href="login.html">Login</a>
+          <!--<a href="cart.html"><ion-icon name="cart-outline"></ion-icon>Cart<span>0</span></a> -->
+          <div class="search-box">
+
+            <input class='input' placeholder="Search food" type="text" id="search">
+      </div>
       </div>
 
   </nav>
@@ -36,11 +41,7 @@
       <a href="./Drinks.html">Drinks</a>
      
     </div>
-    <div class="pop">
-
-          <input class='input' placeholder="Search food" type="text" id="search">
-          <ul id="list"></ul>
-    </div>
+    
 </head>
 
     <div class="welcome">
@@ -56,7 +57,7 @@
     <div class="card" id="food">
         <div>
             <img src="../IMAGE/luwombo.jpg" width="250px" height="60%" sizes="60%" class="shop-item-image">
-            <h3 class="shop-item-title">luwombo</h3><h3 class="shop-item-price">ug.25000</h3>
+            <h3 class="shop-item-title">Luwombo</h3><h3 class="shop-item-price">ug.25000</h3>
             <p><button id="luwombo" class="btn btn-primary shop-item-button">Add to Cart</button></p>
         </div>
         <div>
@@ -66,12 +67,12 @@
         </div>
         <div>
             <img src="../IMAGE/fastfood.jpg"width="250px" height="60%" sizes="60%" class="shop-item-image"> 
-            <h3 class="shop-item-title">fast food</h3><h3 class="shop-item-price">ug.13000</h3>
+            <h3 class="shop-item-title">Burger Combo</h3><h3 class="shop-item-price">ug.13000</h3>
             <p><button id="fastfood" class="btn btn-primary shop-item-button">Add to Cart</button></p>
         </div>
         <div>
             <img src="../IMAGE/french-fries.jpg"width="250px" height="60%" sizes="60%" class="shop-item-image">
-            <h3 class="shop-item-title">french-fries</h3> <h3 class="shop-item-price">ug.2000</h3>
+            <h3 class="shop-item-title">French fries</h3> <h3 class="shop-item-price">ug.2000</h3>
             <p><button id="frenchfries" class="btn btn-primary shop-item-button">Add to Cart</button></p>
         </div>
         <div>
@@ -82,29 +83,29 @@
         </div>
         <div>
             <img src="../IMAGE/fried pork.jpg"width="250px" height="60%" sizes="60%" class="shop-item-image">
-            <h3 class="shop-item-title" >friedpork</h3> <h3 class="shop-item-price">ug.10000/</h3>
+            <h3 class="shop-item-title" >Fried pork</h3> <h3 class="shop-item-price">ug.10000/</h3>
             <p><button id="friedpork" class="btn btn-primary shop-item-button">Add to Cart</button></p>
               
           </div>
           <div>
             <img src="../IMAGE/glasgeflus.jpg"width="250px" height="60%" sizes="60%" class="shop-item-image">
-            <h3 class="shop-item-title" >glasgeflus</h3> <h3 class="shop-item-price">ug.17000/</h3>
+            <h3 class="shop-item-title" >Glasgeflus</h3> <h3 class="shop-item-price">ug.17000/</h3>
             <p><button id="glasgeflus" class="btn btn-primary shop-item-button">Add to Cart</button></p>
           </div>
           <div>
             <img src="../IMAGE/goumentra.jpg"width="250px" height="60%" sizes="60%" class="shop-item-image">
-            <h3 class="shop-item-title">goumentra</h3> <h3 class="shop-item-price">ug.9000/</h3>
+            <h3 class="shop-item-title">Goumentra</h3> <h3 class="shop-item-price">ug.9000/</h3>
             <p><button id="goumentra" class="btn btn-primary shop-item-button">Add to Cart</button></p>
   
           </div>
           <div>
             <img src="../IMAGE/rolex.jpg"width="250px" height="60%" sizes="60%" class="shop-item-image">
-            <h3 class="shop-item-title" >rolex</h3> <h3 class="shop-item-price">ug.9000/</h3>
+            <h3 class="shop-item-title" >Rolex</h3> <h3 class="shop-item-price">ug.9000/</h3>
             <p><button id="rolex" class="btn btn-primary shop-item-button">Add to Cart</button></p>
           </div>
           <div>
             <img src="../IMAGE/samosa.jpg"width="250px" height="60%" sizes="60%" class="shop-item-image">
-            <h3 class="shop-item-title">samosas</h3> <h3 class="shop-item-price">ug.1500/</h3>
+            <h3 class="shop-item-title">Samosas</h3> <h3 class="shop-item-price">ug.1500/</h3>
             <p><button id="samosas" class="btn btn-primary shop-item-button">Add to Cart</button></p>
               
           </div>
@@ -128,16 +129,17 @@
               <span class="cart-total-price">Ush.0</span>
           </div>
           <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
-      </section>
+        </section>
 
       <p class="bthp">
-        <a href="../HTML/Drinks.html">add drinks</a>
+        <a href="../HTML/Drinks.html">Add drinks</a>
         <a href="../index.html">Back To Home</a>
         <footer>contact oreo resturant<br>OutBox Edu@2020<br>Kampala</footer>
         
 
     </div>
-<script src="../JS/food.js"></script>
-<script src="../JS/cart.js"></script>
+  <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+  <script src="../JS/menu.js"></script>
+  <script src="../JS/cart.js"></script>
 </body>
 </html>
