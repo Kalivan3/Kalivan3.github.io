@@ -1,0 +1,25 @@
+body {
+    background-image: url(../IMAGE/IMG_20200723_114244_5_1595493814632.jpg);
+    font-size: larger;
+    font-weight: bold;
+    
+}
+input {
+    padding: 14px 20px;
+    width: 30%;
+}
+button {
+    text-align: center;
+    font-size: 30px;
+    background-color: gray;
+    padding: 6px 10px;
+    border: black;
+}
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+p {
+    font-size: larger;
+}
+.

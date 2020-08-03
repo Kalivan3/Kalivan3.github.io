@@ -1,0 +1,35 @@
+body {
+    background-color: lightgreen;
+}
+.Topnavbar {
+    background-color:orange;
+    padding: 23px 20px;
+    
+}
+.Topnavbar a {
+    color: black;
+    font-size: 35px;
+    font-family: monospace;
+    font-style: italic;
+    margin: 45px 40px;
+
+}
+.Topnavbar a :hover {
+    color: white;
+    padding: 30px 25px;
+}
+h1 {
+    color:blue;
+    font-size: 55px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: lightgreen;
+
+
+}
+.bthp a {
+    text-align: right;
+    font-size: 45px;
+    margin-left: 90px;
+    padding: 46px 46px;
+}

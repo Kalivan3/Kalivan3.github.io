@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    background-image: url(../IMAGE/IMG_20200723_105247_9_1595490802837_1595491383580.jpg);
+    font-size: 40px;
+    font-weight: bold;
+}
+input {
+    padding: 14px 20px;
+    width: 30%;
+}
+button {
+    text-align: center;
+    font-size: 30px;
+    background-color: green;
+    padding: 6px 10px;
+}
+button:hover {
+    background: blue;
+}

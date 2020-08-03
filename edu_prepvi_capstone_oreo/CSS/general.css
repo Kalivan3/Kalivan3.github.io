@@ -1,0 +1,47 @@
+body {
+    background-color: #005080;
+    flex-direction: column;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+
+}
+button {
+    text-align: center;
+    font-size: 30px;
+    background-color: grey;
+    padding: 6px 10px;
+}
+.container {
+    flex-direction: column;
+    font-size: larger;
+}
+div {
+    flex-direction: column;
+}
+input {
+    padding: 14px 20px;
+    width: 30%;
+}
+.entering {
+    background-color: green;
+    width: 10%;
+    padding: 14px 20px;
+}
+.entering:hover {
+    background-color: indigo;
+}
+.reg {
+    text-align: right;
+    width: 90%;
+}
+.check {
+    margin-bottom: 2px;
+    font-style: ;
+}
+h1 {
+    color: lightpink;
+    font-style: italic;
+}

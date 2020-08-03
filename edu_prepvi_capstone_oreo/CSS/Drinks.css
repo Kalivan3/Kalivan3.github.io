@@ -1,0 +1,74 @@
+body {
+    background-color: lightpink;
+}
+.Topnavbar {
+    background-color:rgba(0, 0, 0, 0.76);
+    padding: 23px 20px;
+    
+}
+.Topnavbar a {
+    color: chartreuse;
+    font-size: 19px;
+    font-family: monospace;
+    font-style: italic;
+    margin: 25px 20px;
+
+}
+.Topnavbar a :hover {
+    color: white;
+    padding: 30px 25px;
+}
+
+h1 {
+    color: rgb(17, 20, 17);
+    margin-left: 45px;
+    text-align: center;
+}
+.drinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+  h3 {
+      color: blue;
+      text-align: center;
+      background-color: white;
+      font-family: 'Times New Roman', Times, serif;
+      font-style: italic;
+      margin-top: 00px;
+      
+  }
+  .drinks button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .drinks button:hover {
+    opacity: 0.7;
+  }
+  h5 {
+      color:black;
+      font-size: 25px;
+  }
+  footer {
+    background-color: greenyellow;
+    color: blue;
+    font-size: 30px;
+    border-radius: 10%;
+    text-align: center;
+
+}
+.bthp a {
+    text-align: right;
+    font-size: 45px;
+    margin-left: 90px;
+}
+
