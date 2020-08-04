@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food</title>
-    <link rel="stylesheet" href="../CSS/food.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food</title>
+  <link rel="stylesheet" href="../CSS/food.css">
 </head>
+
 <body>
-    
-<head>
-  <nav id="navbar">
-    <span class="open-slide"></span>
+
+  <head>
+    <nav id="navbar">
+      <span class="open-slide"></span>
       <a href="#" onclick="openSlideMenu()">
         <svg width="30" height="30">
           <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
@@ -19,127 +21,130 @@
         </svg>
       </a>
       <div class="Topnavbar">
-          <a href="../index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="contact.html">Contact</a>
-          <a href="login.html">Login</a>
-          <!--<a href="cart.html"><ion-icon name="cart-outline"></ion-icon>Cart<span>0</span></a> -->
-          <div class="search-box">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
 
-            <input class='input' placeholder="Search food" type="text" id="search">
-      </div>
+        <div class="search-box">
+          <input class='input' placeholder="Search food" type="text" id="search">
+        </div>
       </div>
 
-  </nav>
-  
+    </nav>
+
 
     <div id="side-menu" class="side-nav">
       <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
-    
+
       <hr>
       <a href="./food.html">Food</a>
       <a href="./Drinks.html">Drinks</a>
-     
-    </div>
-    
-</head>
 
-    <div class="welcome">
+    </div>
+
+  </head>
+
+  <div class="welcome">
     <h1>we offer well cooked and balanced diets</h1>
     <h4>Enjoy the best of our dishes</h4>
+  </div>
+
+  <div class="card" id="food">
+    <div>
+      <img src="../IMAGE/luwombo.jpg" width="250px" height="60%" sizes="60%" class="shop-item-image">
+      <h3 class="shop-item-title">Luwombo</h3>
+      <h3 class="shop-item-price">ug.25000</h3>
+      <p><button id="luwombo" class="btn btn-primary shop-item-button">Add to Cart</button></p>
     </div>
-    <hr>
-
+    <div>
+      <img src="../IMAGE/caesar-salad.jpg" width="250px" height="60%" size="60%" class="shop-item-image">
+      <h3 class="shop-item-title">Caesar Salad</h3>
+      <h3 class="shop-item-price">ug.23000</h3>
+      <p><button id="caesar-salad" class="btn btn-primary shop-item-button">Add to Cart</button></p>
     </div>
-
-    
-
-    <div class="card" id="food">
-        <div>
-            <img src="../IMAGE/luwombo.jpg" width="250px" height="60%" sizes="60%" class="shop-item-image">
-            <h3 class="shop-item-title">Luwombo</h3><h3 class="shop-item-price">ug.25000</h3>
-            <p><button id="luwombo" class="btn btn-primary shop-item-button">Add to Cart</button></p>
-        </div>
-        <div>
-            <img src="../IMAGE/caesar-salad.jpg"width="250px" height="60%" size="60%" class="shop-item-image">
-            <h3 class="shop-item-title">Caesar Salad</h3><h3 class="shop-item-price">ug.23000</h3>
-            <p><button id="caesar-salad" class="btn btn-primary shop-item-button">Add to Cart</button></p>
-        </div>
-        <div>
-            <img src="../IMAGE/fastfood.jpg"width="250px" height="60%" sizes="60%" class="shop-item-image"> 
-            <h3 class="shop-item-title">Burger Combo</h3><h3 class="shop-item-price">ug.13000</h3>
-            <p><button id="fastfood" class="btn btn-primary shop-item-button">Add to Cart</button></p>
-        </div>
-        <div>
-            <img src="../IMAGE/french-fries.jpg"width="250px" height="60%" sizes="60%" class="shop-item-image">
-            <h3 class="shop-item-title">French fries</h3> <h3 class="shop-item-price">ug.2000</h3>
-            <p><button id="frenchfries" class="btn btn-primary shop-item-button">Add to Cart</button></p>
-        </div>
-        <div>
-          <img src="../IMAGE/bites.jpg"width="250px" height="60%" sizes="60%" class="shop-item-image">
-          <h3 class="shop-item-title" >Bites</h3> <h3 class="shop-item-price">ug.3000</h3>
-          <p><button id="Bites" class="btn btn-primary shop-item-button">Add to Cart</button></p>
-            
-        </div>
-        <div>
-            <img src="../IMAGE/fried pork.jpg"width="250px" height="60%" sizes="60%" class="shop-item-image">
-            <h3 class="shop-item-title" >Fried pork</h3> <h3 class="shop-item-price">ug.10000/</h3>
-            <p><button id="friedpork" class="btn btn-primary shop-item-button">Add to Cart</button></p>
-              
-          </div>
-          <div>
-            <img src="../IMAGE/glasgeflus.jpg"width="250px" height="60%" sizes="60%" class="shop-item-image">
-            <h3 class="shop-item-title" >Glasgeflus</h3> <h3 class="shop-item-price">ug.17000/</h3>
-            <p><button id="glasgeflus" class="btn btn-primary shop-item-button">Add to Cart</button></p>
-          </div>
-          <div>
-            <img src="../IMAGE/goumentra.jpg"width="250px" height="60%" sizes="60%" class="shop-item-image">
-            <h3 class="shop-item-title">Goumentra</h3> <h3 class="shop-item-price">ug.9000/</h3>
-            <p><button id="goumentra" class="btn btn-primary shop-item-button">Add to Cart</button></p>
-  
-          </div>
-          <div>
-            <img src="../IMAGE/rolex.jpg"width="250px" height="60%" sizes="60%" class="shop-item-image">
-            <h3 class="shop-item-title" >Rolex</h3> <h3 class="shop-item-price">ug.9000/</h3>
-            <p><button id="rolex" class="btn btn-primary shop-item-button">Add to Cart</button></p>
-          </div>
-          <div>
-            <img src="../IMAGE/samosa.jpg"width="250px" height="60%" sizes="60%" class="shop-item-image">
-            <h3 class="shop-item-title">Samosas</h3> <h3 class="shop-item-price">ug.1500/</h3>
-            <p><button id="samosas" class="btn btn-primary shop-item-button">Add to Cart</button></p>
-              
-          </div>
-            
-        </div>
-        
-          
-        </p>
-        <hr>
-        <section class="container content-section">
-          <h2 class="section-header">CART</h2>
-          <div class="cart-row">
-              <span class="cart-item cart-header cart-column">ITEM</span>
-              <span class="cart-price cart-header cart-column">PRICE</span>
-              <span class="cart-quantity cart-header cart-column">QUANTITY</span>
-          </div>
-          <div class="cart-items">
-          </div>
-          <div class="cart-total">
-              <strong class="cart-total-title">Total</strong>
-              <span class="cart-total-price">Ush.0</span>
-          </div>
-          <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
-        </section>
-
-      <p class="bthp">
-        <a href="../HTML/Drinks.html">Add drinks</a>
-        <a href="../index.html">Back To Home</a>
-        <footer>contact oreo resturant<br>OutBox Edu@2020<br>Kampala</footer>
-        
+    <div>
+      <img src="../IMAGE/fastfood.jpg" width="250px" height="60%" sizes="60%" class="shop-item-image">
+      <h3 class="shop-item-title">Burger Combo</h3>
+      <h3 class="shop-item-price">ug.13000</h3>
+      <p><button id="fastfood" class="btn btn-primary shop-item-button">Add to Cart</button></p>
+    </div>
+    <div>
+      <img src="../IMAGE/french-fries.jpg" width="250px" height="60%" sizes="60%" class="shop-item-image">
+      <h3 class="shop-item-title">French fries</h3>
+      <h3 class="shop-item-price">ug.2000</h3>
+      <p><button id="frenchfries" class="btn btn-primary shop-item-button">Add to Cart</button></p>
+    </div>
+    <div>
+      <img src="../IMAGE/bites.jpg" width="250px" height="60%" sizes="60%" class="shop-item-image">
+      <h3 class="shop-item-title">Bites</h3>
+      <h3 class="shop-item-price">ug.3000</h3>
+      <p><button id="Bites" class="btn btn-primary shop-item-button">Add to Cart</button></p>
 
     </div>
-  <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <div>
+      <img src="../IMAGE/fried pork.jpg" width="250px" height="60%" sizes="60%" class="shop-item-image">
+      <h3 class="shop-item-title">Fried pork</h3>
+      <h3 class="shop-item-price">ug.10000/</h3>
+      <p><button id="friedpork" class="btn btn-primary shop-item-button">Add to Cart</button></p>
+
+    </div>
+    <div>
+      <img src="../IMAGE/glasgeflus.jpg" width="250px" height="60%" sizes="60%" class="shop-item-image">
+      <h3 class="shop-item-title">Glasgeflus</h3>
+      <h3 class="shop-item-price">ug.17000/</h3>
+      <p><button id="glasgeflus" class="btn btn-primary shop-item-button">Add to Cart</button></p>
+    </div>
+    <div>
+      <img src="../IMAGE/goumentra.jpg" width="250px" height="60%" sizes="60%" class="shop-item-image">
+      <h3 class="shop-item-title">Goumentra</h3>
+      <h3 class="shop-item-price">ug.9000/</h3>
+      <p><button id="goumentra" class="btn btn-primary shop-item-button">Add to Cart</button></p>
+
+    </div>
+    <div>
+      <img src="../IMAGE/rolex.jpg" width="250px" height="60%" sizes="60%" class="shop-item-image">
+      <h3 class="shop-item-title">Rolex</h3>
+      <h3 class="shop-item-price">ug.9000/</h3>
+      <p><button id="rolex" class="btn btn-primary shop-item-button">Add to Cart</button></p>
+    </div>
+    <div>
+      <img src="../IMAGE/samosa.jpg" width="250px" height="60%" sizes="60%" class="shop-item-image">
+      <h3 class="shop-item-title">Samosas</h3>
+      <h3 class="shop-item-price">ug.1500/</h3>
+      <p><button id="samosas" class="btn btn-primary shop-item-button">Add to Cart</button></p>
+
+    </div>
+
+  </div>
+
+  <hr>
+  <section class="container content-section">
+    <h2 class="section-header">CART</h2>
+    <div class="cart-row">
+      <span class="cart-item cart-header cart-column">ITEM</span>
+      <span class="cart-price cart-header cart-column">PRICE</span>
+      <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div>
+    <div class="cart-items">
+    </div>
+    <div class="cart-total">
+      <strong class="cart-total-title">Total</strong>
+      <span class="cart-total-price">Ush.0</span>
+    </div>
+    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+  </section>
+
+  <p class="bthp">
+    <a href="../HTML/Drinks.html">Add drinks</a>
+    <a href="../index.html">Back To Home</a>
+  </p>
+
+  <footer> Oreo Restaurant ©2020</footer>
+
+
+  </div>
   <script src="../JS/menu.js"></script>
   <script src="../JS/cart.js"></script>
 </body>
+
 </html>

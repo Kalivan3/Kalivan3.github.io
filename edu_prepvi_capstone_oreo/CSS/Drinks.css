@@ -1,20 +1,20 @@
 body {
-    background-color: lightpink;
+    background-image: url(../Images/uniform-bg.png);
+    background-size: cover;
 }
 #navbar {
     overflow: hidden;
     margin-left: 0px;
     width: auto;
-    background-color:orange;
+    background-color: black;
 }
 
 #navbar a {
     float: left;
     display: block;
-    color: black;
-    font-size: 19px;
-    font-family: monospace;
-    font-style: italic;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;    
@@ -28,7 +28,7 @@ body {
 
 #navbar a:hover,
 #dropdown:hover #dropbtn {
-    background-color: rgba(0, 0, 0, 0.233);
+    background-color: #2E67FA;
 }
 @media (max-width:480px){
     #navbar .search-box{
@@ -98,13 +98,14 @@ body {
     padding: 10px 10px 10px 30px;
     text-decoration: none;
     font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
     color: #fff;
     display: block;
     transition: 0.3s;
 }
 
 .side-nav a:hover {
-    color: rgba(252, 13, 132, 0.76);
+    color: #2E67FA;
 }
 
 .side-nav .btn-close {
@@ -169,8 +170,7 @@ h1 {
     margin-left: 5px;
 }
   footer {
-    background-color: greenyellow;
-    color: blue;
+    color: white;
     font-size: 30px;
     border-radius: 10%;
     text-align: center;
@@ -278,12 +278,12 @@ h1 {
     margin: 40px auto 80px auto;
     font-size: 1.75em;
     color: white;
-    background-color: #2D9CDB;
+    background-color: black;
     border: none;
     border-radius: .3em;
 }
 .btn-purchase:hover{
-    background-color: #1b6ca8;
+    background-color: #2E67FA;
 }
 .search-box{
     float: right;
